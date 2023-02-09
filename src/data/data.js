@@ -146,7 +146,7 @@ const project={
             projectName:"English Speech to Indian Sign Language",
             skillHeading:"Skills",
             skills:["NLP, Deep Learning, Python"],
-            description:"English Speech to Indian Sign Language translator using a Rule based Machine Translation and Neural Machine Translation based architecture to compare the results and generating a pose estimated ISL model."   
+            description:"English Speech to Indian Sign Language translator using a Rule based and Neural Machine Translation based architecture to compare the results and generating a pose estimated model."   
          }
     ]
 }
