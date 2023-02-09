@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#profile{
+    scroll-margin-top: 8vh;
+}
+
+#education{
+    scroll-margin-top: 11vh;
+}
+
+#achievements{
+    scroll-margin-top: 8vh;
+}
+
+#project{
+    scroll-margin-top: 10vh;
+}
+
+@media screen and (min-width:400px) and (max-width:600px) {
+    #profile{
+        scroll-margin-top: 13vh;
+    }
+    
+    #education{
+        scroll-margin-top: 18vh;
+    }
+    
+    #achievements{
+        scroll-margin-top: 12vh;
+    }
+    
+    #project{
+        scroll-margin-top: 14vh;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+    #profile{
+        scroll-margin-top: 22vh;
+    }
+    
+    #education{
+        scroll-margin-top: 27vh;
+    }
+    
+    #achievements{
+        scroll-margin-top: 12vh;
+    }
+    
+    #project{
+        scroll-margin-top: 14vh;
+    }
+    
+}
