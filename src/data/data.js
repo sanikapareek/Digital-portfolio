@@ -61,7 +61,7 @@ const profile={
                     value:[
                         {
                             logo_class:"fa fa-github",
-                            logoLink:"https://github.com/sanikapareek-contentstack"
+                            logoLink:"https://github.com/sanikapareek"
                         },
                         {
                             logo_class:"fa fa-linkedin",
