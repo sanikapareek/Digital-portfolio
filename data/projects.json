@@ -18,6 +18,12 @@
             "skillHeading":"Skills",
             "skills":["Unity3D"],
             "description":"AR based application designed for Marathi Alphabets for pre-primary sudents in rural India to make teaching-learning process more interactive and fun."
+        },
+        {
+           "projectName":"English Speech to Indian Sign Language",
+            "skillHeading":"Skills",
+            "skills":["NLP, Deep Learning, Python"],
+            "description":"English Speech to Indian Sign Language translator using a Rule based Machine Translation and Neural Machine Translation based architecture to compare the results and generating a pose estimated ISL model."   
         }
     ]
 }
