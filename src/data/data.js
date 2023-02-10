@@ -23,7 +23,7 @@ const header={
 
 const banner={
     name:"Sanika Pareek",
-    position:"Associate Software Developer Intern at Contentstack",
+    position:"",
     bannerBackgroundImg:"./assets/background.png"
 }
 
@@ -36,7 +36,7 @@ const profile={
     section:[
         {
             heading:"About Me",
-            paragraph:"I'm Sanika Pareek, a 21 year old graduate at MIT Academy of Engineering from Pune, Maharashtra. I'm certified for Azure AI 900 and worked on tools like Fusion 360 and Matlab. I have interest in the field of Artifical Intelligence and Machine Learing."
+            paragraph:"I'm Sanika Pareek, a 21 year old graduate at MIT Academy of Engineering from Pune, Maharashtra. I'm certified for Azure AI 900 and worked on tools like Fusion 360 and Matlab. I have interest in the field of Artifical Intelligence and Machine Learning."
         },
         {
             heading:"Details",
@@ -134,13 +134,13 @@ const project={
             projectName:"Placement Preparation Portal",
             skillHeading:"Skills",
             skills:["Angular", "MySQL", "Node.js"],
-            description:"Single platform for praticing both coding questions and aptitude questions so that student don't have to search for different sources for preparation."
+            description:"Single platform for practicing both coding questions and aptitude questions so that student don't have to search for different sources for preparation."
         },
         {
             projectName:"Augmented Reality based App for Education",
             skillHeading:"Skills",
             skills:["Unity3D"],
-            description:"AR based application designed for Marathi Alphabets for pre-primary sudents in rural India to make teaching-learning process more interactive and fun."
+            description:"AR based application designed for Marathi Alphabets for pre-primary students in rural India to make teaching-learning process more interactive and fun."
         },
         {
             projectName:"English Speech to Indian Sign Language",
