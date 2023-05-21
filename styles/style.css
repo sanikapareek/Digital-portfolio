@@ -2,7 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
+h2{
+    font-size: 24px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+p, li{
+    font-size: 19.2px;
+    margin: 0;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+h4{
+    font-size: 16px;
+}
+
+h1,h2,h4,h3{
+    font-weight: bold;
+}
+
 #profile{
     scroll-margin-top: 8vh;
 }
@@ -19,40 +49,27 @@
     scroll-margin-top: 10vh;
 }
 
-@media screen and (min-width:400px) and (max-width:600px) {
-    #profile{
-        scroll-margin-top: 13vh;
-    }
-    
-    #education{
-        scroll-margin-top: 18vh;
-    }
-    
-    #achievements{
-        scroll-margin-top: 12vh;
-    }
-    
-    #project{
-        scroll-margin-top: 14vh;
-    }
-    
+#internship{
+    scroll-margin-top: 12vh;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:992px) {
     #profile{
-        scroll-margin-top: 22vh;
+        scroll-margin-top: 42vh;
     }
     
     #education{
-        scroll-margin-top: 27vh;
+        scroll-margin-top: 47vh;
     }
     
     #achievements{
-        scroll-margin-top: 12vh;
+        scroll-margin-top: 42vh;
     }
     
     #project{
-        scroll-margin-top: 14vh;
+        scroll-margin-top: 48vh;
     }
-    
+    #internship{
+        scroll-margin-top: 47vh;
+    }    
 }

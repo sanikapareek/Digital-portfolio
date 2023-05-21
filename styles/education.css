@@ -1,4 +1,3 @@
-
 .educationContainer{
     text-align: center;
     margin-top:40px
@@ -13,17 +12,20 @@
 
 .educationCard{
     width: 350px;
-    height: 350px;
+    height: 300px;
     margin: 1%;
-    background-color: rgb(247, 244, 244);
+    background-color:white;
+    border: 0.8px solid black;
     border-radius: 20px;
 }
 
 .educationCardHeader{
     height: 100px;
     width: 350px;
-    background-color: gray;
+    background-color: rgb(112, 113, 162);
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
     padding: 40px;
     border-radius: 20px 20px 0 0 ;
     color: white;
@@ -35,15 +37,44 @@
     font-size: 1.2rem;
 }
 
-.educationCard:hover{
-    transform: scale(1.1);
-    border: 1px solid black;
-}
-
 @media screen and (min-width:957px) and (max-width:1120px) {
    .educationCard,.educationCardHeader{
         width: 300px;
    }
-   
-   
+   .educationCardHeader{
+    height: 80px;
+   } 
 }
+
+@media screen and (min-width:320px) and (max-width:400px) {
+    .educationCard,.educationCardHeader{
+         width: 300px;
+         
+    }
+    .educationCardHeader{
+        height: 80px;
+        
+    }
+    .educationCardHeader h2{
+       margin-top: -10px;
+    }
+ }
+
+ @media screen and (max-width:320px) {
+    .educationCard,.educationCardHeader{
+         width: 250px;  
+    }
+    .educationCardHeader{
+        height: 60px;
+        
+    }
+    .educationCardHeader h2{
+       margin-top: -10px;
+    }
+    .educationCard p{
+        padding-top: 15px;
+    }
+    .educationCard{
+        height: 310px;
+    }
+ }

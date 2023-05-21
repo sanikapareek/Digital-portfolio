@@ -8,6 +8,7 @@ import { Education } from "./components/education.js";
 import { Cards } from "./components/cards.js";
 import { Project } from "./components/projects.js";
 import { Achievement } from "./components/achievements.js";
+import { Internship } from "./components/internships.js";
 import { Footer } from "./components/footer.js";
 
 const headerComponent=new Header();
@@ -32,7 +33,7 @@ educationComponent.mount(document.getElementById("root"))
 
 for(let i=0;i<education.educationInfo.length;i++){
     const educationCard=new Cards();
-    educationCard.mount(document.querySelector(".educationCards"),education.educationInfo[i],"education");
+    educationCard.mount(document.querySelector(".educationCards"),education.educationInfo[i],"education",i);
 }
 const achievementComponent=new Achievement();
 achievementComponent.mount(document.getElementById("root"));
@@ -42,8 +43,11 @@ projectComponent.mount(document.getElementById("root"));
 
 for(let i=0;i<project.projects.length;i++){
     const projectCard=new Cards();
-    projectCard.mount(document.querySelector(".projectCards"),project.projects[i],"project");
+    projectCard.mount(document.querySelector(".carousel-inner"),project.projects[i],"project",i);
 }
+
+const internshipComponent=new Internship();
+internshipComponent.mount(document.getElementById("root"))
 
 const footerComponent=new Footer();
 footerComponent.mount(document.getElementById("root"));

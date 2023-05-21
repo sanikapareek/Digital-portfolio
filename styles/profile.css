@@ -1,6 +1,6 @@
 #profile{
     text-align: center;
-    background-color: rgb(248, 246, 244);
+    background-color: rgb(236, 236, 235);
     margin-top: 50px;
     padding: 30px;
 }
@@ -29,7 +29,7 @@
 }
 .details i{
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .details a{
     margin-right: 10px;
@@ -42,7 +42,7 @@
     }
     .aboutme{
         border-bottom: 1px solid rgb(28, 28, 28);
-        border-right: 1px solid white;
+        border-right: 1px solid rgb(236, 236, 235);
         text-align: center;
     }
     .aboutme,.details{

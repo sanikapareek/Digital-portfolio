@@ -1,12 +1,15 @@
 import Component from "./Mount.js";
 
 class Cards extends Component{
-    render(data,cardFor){
+    render(data,cardFor,i){
 
         const cardContainer=document.createElement("div");
         const cardHeader=document.createElement("div");
         const cardHeading=document.createElement("h2");
+        const contentDiv=document.createElement("div")
+        const imgDiv=document.createElement("div")
         const cardPara=document.createElement("p");
+
 
         
         switch(cardFor.toLowerCase()){
@@ -15,37 +18,49 @@ class Cards extends Component{
                 cardHeader.classList.add(`${cardFor.toLowerCase()}CardHeader`);
                 cardHeading.innerText=data.educationHeading;
                 cardPara.innerHTML=
-                    `<strong>${data.institutionHeading}</strong>: ${data.institutionName}<br><br>
-                    <strong>${data.streamHeading}</strong>: ${data.streamType}<br><br>
-                    <strong>${data.marksType}</strong>: ${data.marks}<br><br>
-                    <strong>${data.yearHeading}</strong>: ${data.year}<br><br>
+                    `<strong>${data.institutionHeading}</strong>: ${data.institutionName}<br>
+                    <strong>${data.streamHeading}</strong>: ${data.streamType}<br>
+                    <strong>${data.marksType}</strong>: ${data.marks}<br>
+                    <strong>${data.yearHeading}</strong>: ${data.year}<br>
                     `;
-                
+                cardContainer.appendChild(cardHeader);
+                cardHeader.appendChild(cardHeading); 
+                cardContainer.appendChild(cardPara);
+            
             }
             break;
+
             case "project":{
-                cardContainer.classList.add(`${cardFor.toLowerCase()}Card`);
-                cardHeader.classList.add(`${cardFor.toLowerCase()}CardHeader`);
-                cardHeading.innerText=data.projectName;
-                cardPara.innerHTML=`<strong>${data.skillHeading}</strong>: `;
+                cardContainer.classList.add("carousel-item");
+                contentDiv.classList.add("contentDiv")
+                imgDiv.classList.add("imgDiv")
+                console.log(i)
+                if(i===0){
+                    console.log("active")
+                    cardContainer.classList.add("active");
+                }
+                
+                cardPara.classList.add("projectPara")
+                cardHeading.innerHTML=`<br>`+data.projectName;
+                cardPara.innerHTML=`<br>`+`<strong>${data.skillHeading}</strong>: `;
                 for(let i=0;i<data.skills.length;i++){
                     if((data.skills.length)-i-1===0){
-                        cardPara.innerHTML=cardPara.innerHTML+`${data.skills[i]} <br><br>`;
+                        cardPara.innerHTML=cardPara.innerHTML+`${data.skills[i]} <br>`;
                     }else{
                         cardPara.innerHTML=cardPara.innerHTML+`${data.skills[i]}, `
                     }
                     
-                }   
-                cardPara.innerHTML=cardPara.innerHTML+data.description;
+                }  
+                cardPara.innerHTML=cardPara.innerHTML+`<strong>Problem Statement: </strong>${data.description}  <br><br>`;
                 
+                cardContainer.appendChild(cardHeading)
+                cardContainer.appendChild(cardPara)      
             }
             break;
             default: break;
         }
             
-        cardContainer.appendChild(cardHeader);
-        cardHeader.appendChild(cardHeading);
-        cardContainer.appendChild(cardPara);
+        
 
         return cardContainer;
         

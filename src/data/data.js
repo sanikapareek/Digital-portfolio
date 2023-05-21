@@ -17,14 +17,18 @@ const header={
         {
             "title":"Projects",
             "href":"#project"
+        },
+        {
+            "title":"Internship",
+            "href":"#internship"
         }
     ]
 }
 
 const banner={
     name:"Sanika Pareek",
-    position:"",
-    bannerBackgroundImg:"./assets/background.png"
+    position:"Student of MIT Academy of Engineering",
+    bannerBackgroundImg:"./assets/painted-solid-concrete-wall-textured-backdrop.jpg"
 }
 
 const profileImage={
@@ -36,7 +40,7 @@ const profile={
     section:[
         {
             heading:"About Me",
-            paragraph:"I'm Sanika Pareek, a 21 year old graduate at MIT Academy of Engineering from Pune, Maharashtra. I'm certified for Azure AI 900 and worked on tools like Fusion 360 and Matlab. I have interest in the field of Artifical Intelligence and Machine Learning."
+            paragraph:"I'm Sanika Pareek, a 21 year graduate from MIT Academy of Engineering, Pune. I'm a tech fanatic and a certified Azure AI 900. I have an experience of working on Fusion 360 and Matlab. I have a keen fascination for the advancing fields of Artificial Intelligence and Machine Learning."
         },
         {
             heading:"Details",
@@ -84,9 +88,9 @@ const education={
     educationInfo:[{
         educationHeading:"B.Tech",
         institutionHeading:"Name of College",
-        institutionName:"MIT Academy of Engineering,Pune",
+        institutionName:"MIT Academy of Engineering, Pune",
         streamHeading:"Stream",
-        streamType:"Computer Engineering",
+        streamType:"Computer Science",
         marksType:"CGPA",
         marks:"9.43",
         yearHeading:"Year of Passing",
@@ -95,7 +99,7 @@ const education={
     {
         educationHeading:"CBSE- XII",
         institutionHeading:"Name of School",
-        institutionName:"DAV Public School,Pune",
+        institutionName:"DAV Public School, Pune",
         streamHeading:"Stream",
         streamType:"Science",
         marksType:"Percentage",
@@ -106,7 +110,7 @@ const education={
     {
         educationHeading:"CBSE- X",
         institutionHeading:"Name of School",
-        institutionName:"DAV Public School,Pune",
+        institutionName:"DAV Public School, Pune",
         streamHeading:"Stream",
         streamType:"All subjects",
         marksType:"CGPA",
@@ -118,7 +122,7 @@ const education={
 
 const achievements={
     achievementHeading:"Achievements",
-    achievements:["Bagged second prize in 'VirtualStorm: Hackathon 1.0' organized by 'IIM Sirmaur' in the year 2022.","Bagged thrid prize in 'Datathon' sponsored by 'Bajaj Finserv' held at MITAOE in the year 2022."]
+    achievements:["Bagged second prize in 'VirtualStorm: Hackathon 1.0' organized by 'IIM Sirmaur' in the year 2022.","Bagged third prize in 'Datathon' sponsored by 'Bajaj Finserv' held at MITAOE in the year 2022."]
 }
 
 const project={
@@ -128,33 +132,72 @@ const project={
             projectName:"YouTube Recommendation System",
             skillHeading:"Skills",
             skills:["Machine Learning", "Python"],
-            description:"Analyzing YouTube comments, number of likes, dislikes and total number of views and concluding whether is video is watchable or not."
+            description:"Analysing Youtube comments, likes, dislikes and no. of views and then concluding whether the video is watchable or not.",
+            background_url:"./assets/YouTube.svg"
         },
         {
             projectName:"Placement Preparation Portal",
             skillHeading:"Skills",
             skills:["Angular", "MySQL", "Node.js"],
-            description:"Single platform for practicing both coding questions and aptitude questions so that student don't have to search for different sources for preparation."
+            description:"Single platform for practicing both coding questions and aptitude questions."
         },
         {
             projectName:"Augmented Reality based App for Education",
             skillHeading:"Skills",
             skills:["Unity3D"],
-            description:"AR based application designed for Marathi Alphabets for pre-primary students in rural India to make teaching-learning process more interactive and fun."
+            description:"AR based Marathi Alphabets App for pre-primary students in rural India to enhance teaching-learning process."
         },
         {
             projectName:"English Speech to Indian Sign Language",
             skillHeading:"Skills",
-            skills:["NLP, Deep Learning, Python"],
-            description:"English Speech to Indian Sign Language translator using a Rule based and Neural Machine Translation based architecture to compare the results and generating a pose estimated model."   
-         }
+            skills:["NLP", "Deep Learning", "Python"],
+            description:"English Speech to Indian Sign Language translator using NMT based architecture to generate pose estimated video."   
+         },
+         {
+            projectName:"Food Delivery Website",
+            skillHeading:"Skills",
+            skills:["Angular", "MySQL", "Node.js"],
+            description:"It is a website for selling and buying homemade food to help homemakers."   
+         },
+         {
+            projectName:"Vehicle Lane Detection",
+            skillHeading:"Skills",
+            skills:["Computer Vision", "Python"],
+            description:"To check if the lane is being followed and give suggestion on lane keeping."  
+         },         
     ]
 }
 
+const internship={
+    internshipHeading:"Internships",
+    internships:[
+        {
+            companyName: "Contentstack",
+            companyLogo:"./assets/contentstackLogo.jpg",
+            year: "2023",
+            duration:"5 January 2023 - Present",
+            Position: "Assosicate Software Developer Intern"
 
+        },
+        {
+            companyName: "TechsWord Solution",
+            companyLogo:"./assets/techswordLogo.jpg",
+            year: "2022",
+            duration:"15 June 2022 - 15 August 2022",
+            Position: "Web Development Intern"
 
+        },
+        {
+            companyName: "MIT Academy of Engineering",
+            companyLogo:"./assets/mitLogo.jpg",
+            year: "2021",
+            duration:"1 June 2021 - 31 July 2021",
+            Position: "Reserach Work"
+        }
+    ]
+}
 const footer={
     footer:"Copyright @Sanika Pareek 2023"
 }
 
-export {header,banner,profileImage,profile,education,achievements,project,footer}
+export {header,banner,profileImage,profile,education,achievements,project,internship,footer}
