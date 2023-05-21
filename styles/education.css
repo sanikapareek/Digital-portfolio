@@ -46,14 +46,19 @@
    } 
 }
 
+
+@media screen and (min-width:400px) and (max-width:957px) {
+    .educationCard,.educationCardHeader{
+         width: 300px;
+    }
+ }
+
 @media screen and (min-width:320px) and (max-width:400px) {
     .educationCard,.educationCardHeader{
          width: 300px;
-         
     }
     .educationCardHeader{
-        height: 80px;
-        
+        height: 80px;  
     }
     .educationCardHeader h2{
        margin-top: -10px;

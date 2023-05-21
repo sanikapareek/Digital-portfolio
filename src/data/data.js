@@ -88,7 +88,7 @@ const education={
     educationInfo:[{
         educationHeading:"B.Tech",
         institutionHeading:"Name of College",
-        institutionName:"MIT Academy of Engineering, Pune",
+        institutionName:"MIT Academy of Engineering",
         streamHeading:"Stream",
         streamType:"Computer Science",
         marksType:"CGPA",
