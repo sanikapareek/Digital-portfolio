@@ -133,7 +133,6 @@ const project={
             skillHeading:"Skills",
             skills:["Machine Learning", "Python"],
             description:"Analysing Youtube comments, likes, dislikes and no. of views and then concluding whether the video is watchable or not.",
-            background_url:"./assets/YouTube.svg"
         },
         {
             projectName:"Placement Preparation Portal",
@@ -173,7 +172,7 @@ const internship={
     internships:[
         {
             companyName: "Contentstack",
-            companyLogo:"./assets/contentstackLogo.jpg",
+            companyLogo:"./assets/contentstackLogo.jpeg",
             year: "2023",
             duration:"5 January 2023 - Present",
             Position: "Assosicate Software Developer Intern"
@@ -181,7 +180,7 @@ const internship={
         },
         {
             companyName: "TechsWord Solution",
-            companyLogo:"./assets/techswordLogo.jpg",
+            companyLogo:"./assets/techswordLogo.jpeg",
             year: "2022",
             duration:"15 June 2022 - 15 August 2022",
             Position: "Web Development Intern"
@@ -189,7 +188,7 @@ const internship={
         },
         {
             companyName: "MIT Academy of Engineering",
-            companyLogo:"./assets/mitLogo.jpg",
+            companyLogo:"./assets/mitLogo.jpeg",
             year: "2021",
             duration:"1 June 2021 - 31 July 2021",
             Position: "Reserach Work"
