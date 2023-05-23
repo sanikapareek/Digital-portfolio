@@ -10,6 +10,7 @@ import { Project } from "./components/projects.js";
 import { Achievement } from "./components/achievements.js";
 import { Internship } from "./components/internships.js";
 import { Footer } from "./components/footer.js";
+import { Certificates } from "./components/certificates.js";
 
 const headerComponent=new Header();
 headerComponent.mount(document.getElementById("root"));
@@ -45,6 +46,9 @@ for(let i=0;i<project.projects.length;i++){
     const projectCard=new Cards();
     projectCard.mount(document.querySelector(".carousel-inner"),project.projects[i],"project",i);
 }
+
+const certificateComponent=new Certificates();
+certificateComponent.mount(document.getElementById("root"));
 
 const internshipComponent=new Internship();
 internshipComponent.mount(document.getElementById("root"))

@@ -49,21 +49,29 @@ h1,h2,h4,h3{
     scroll-margin-top: 10vh;
 }
 
+#certificates{
+    scroll-margin-top: 8vh;
+}
+
 #internship{
     scroll-margin-top: 12vh;
 }
 
-@media screen and (max-width:992px) {
+/* @media screen and (max-width:992px) {
     #profile{
-        scroll-margin-top: 42vh;
+        scroll-margin-top: 44vh;
     }
     
     #education{
-        scroll-margin-top: 47vh;
+        scroll-margin-top: 48vh;
     }
     
     #achievements{
-        scroll-margin-top: 42vh;
+        scroll-margin-top: 44vh;
+    }
+
+    #certificates{
+        scroll-margin-top: 44vh;
     }
     
     #project{
@@ -72,4 +80,5 @@ h1,h2,h4,h3{
     #internship{
         scroll-margin-top: 47vh;
     }    
-}
+ } */
+

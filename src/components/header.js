@@ -26,6 +26,7 @@ class Header extends Component{
         headerLogoImg.src=`${header.logo}`
 
         toggleBtn.classList.add("navbar-toggler");
+        toggleBtn.classList.add("navbar-toggler-right");
         toggleBtn.type="button";
         toggleBtn.dataset.toggle="collapse";
         toggleBtn.dataset.target="#navbarSupportedContent";
@@ -65,6 +66,15 @@ class Header extends Component{
         container.appendChild(toggleBtn);
         container.appendChild(collapseNavbar);
         collapseNavbar.appendChild(navLinks);
+
+        $(document).ready(function() {
+            // Close the navbar on mobile when a menu item is clicked
+            $('.navbar-nav>li>a').on('click', function(){
+              $('.navbar-collapse').collapse('hide');
+            });
+          });
+
+        
 
         return headerContainer;
     }

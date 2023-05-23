@@ -19,6 +19,11 @@ const header={
             "href":"#project"
         },
         {
+            "title":"Certificate",
+            "href":"#certificates"
+        }
+        ,
+        {
             "title":"Internship",
             "href":"#internship"
         }
@@ -125,6 +130,17 @@ const achievements={
     achievements:["Bagged second prize in 'VirtualStorm: Hackathon 1.0' organized by 'IIM Sirmaur' in the year 2022.","Bagged third prize in 'Datathon' sponsored by 'Bajaj Finserv' held at MITAOE in the year 2022."]
 }
 
+const certificates={
+    certificateHeading:"Certification",
+    certificates:["Programming for Everybody (Getting Started with Python)",
+    "MathWorks: MATLAB Onramp",
+    "Microsoft Certified: Azure AI Fundamentals",
+    "AWS Academy Graduate - AWS Academy Cloud Foundations",
+    "AWS Academy Graduate - AWS Academy Cloud Architecting Key Skills: Cloud AWS",
+    "NPTEL: Cloud Computing"]
+}
+
+
 const project={
     projectHeading:"Projects",
     projects:[
@@ -199,4 +215,4 @@ const footer={
     footer:"Copyright @Sanika Pareek 2023"
 }
 
-export {header,banner,profileImage,profile,education,achievements,project,internship,footer}
+export {header,banner,profileImage,profile,education,achievements,project,internship,footer, certificates}
