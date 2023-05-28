@@ -19,13 +19,12 @@ const header={
             "href":"#project"
         },
         {
-            "title":"Certificate",
-            "href":"#certificates"
-        }
-        ,
-        {
             "title":"Internship",
             "href":"#internship"
+        },
+        {
+            "title":"Certificate",
+            "href":"#certificates"
         }
     ]
 }
@@ -132,12 +131,32 @@ const achievements={
 
 const certificates={
     certificateHeading:"Certification",
-    certificates:["Programming for Everybody (Getting Started with Python)",
-    "MathWorks: MATLAB Onramp",
-    "Microsoft Certified: Azure AI Fundamentals",
-    "AWS Academy Graduate - AWS Academy Cloud Foundations",
-    "AWS Academy Graduate - AWS Academy Cloud Architecting Key Skills: Cloud AWS",
-    "NPTEL: Cloud Computing"]
+    certificates:[
+        {
+        imageLink:"./assets/python.jpg",
+        imageCaption:"Programming for Everybody (Getting Started with Python)"
+        },
+        {
+            imageLink:"./assets/Azure.jpg",
+            imageCaption:"Microsoft Certified: Azure AI Fundamentals"
+        },
+        {
+            imageLink:"./assets/onramp.jpg",
+            imageCaption:"MathWorks: MATLAB Onramp"
+        },
+        {
+            imageLink:"./assets/AWS1.jpg",
+            imageCaption:"AWS Academy Graduate - AWS Academy Cloud Foundations"
+        },
+        {
+            imageLink:"./assets/AWS2.jpg",
+            imageCaption:"AWS Academy Graduate - AWS Academy Cloud Architecting"
+        },
+        {
+            imageLink:"./assets/nptel.jpeg",
+            imageCaption:"NPTEL: Cloud Computing"
+        }
+    ]
 }
 
 

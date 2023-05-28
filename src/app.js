@@ -47,11 +47,11 @@ for(let i=0;i<project.projects.length;i++){
     projectCard.mount(document.querySelector(".carousel-inner"),project.projects[i],"project",i);
 }
 
+const internshipComponent=new Internship();
+internshipComponent.mount(document.getElementById("root"));
+
 const certificateComponent=new Certificates();
 certificateComponent.mount(document.getElementById("root"));
-
-const internshipComponent=new Internship();
-internshipComponent.mount(document.getElementById("root"))
 
 const footerComponent=new Footer();
 footerComponent.mount(document.getElementById("root"));

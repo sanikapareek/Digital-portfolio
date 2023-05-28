@@ -14,10 +14,12 @@ class Project extends Component{
         projectContainer.classList.add("projectContainer");
         projectContainer.id="project";
         projectCards.classList.add("carousel")
+        projectCards.classList.add("carousel-project")
         projectCards.classList.add("slide");
         projectCards.dataset.interval='false';
         projectCards.id="carouselExampleControls";
         projectCardInner.classList.add("carousel-inner");
+        projectCardInner.classList.add("carousel-inner-project");
         previous.classList.add("carousel-control-prev");
         previous.href="#carouselExampleControls";
         previous.role="button";

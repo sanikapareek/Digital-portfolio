@@ -32,6 +32,7 @@ class Cards extends Component{
 
             case "project":{
                 cardContainer.classList.add("carousel-item");
+                cardContainer.classList.add("carousel-item-project");
                 contentDiv.classList.add("contentDiv")
                 imgDiv.classList.add("imgDiv")
                 console.log(i)
