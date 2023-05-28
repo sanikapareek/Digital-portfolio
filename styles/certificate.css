@@ -37,3 +37,9 @@
 .certificate-icon{
     filter: invert(100%);
 }
+
+@media screen and (max-width:600px) {
+    .carousel-item-certificate h3{
+        font-size: 14px;
+    }
+}

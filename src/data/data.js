@@ -51,7 +51,7 @@ const profile={
             paragraph:[
                 {
                     title:"Skills",
-                    value:["Java","MySQL"]
+                    value:["Java","MySQL","React","Javascript","HTML","CSS"]
         
                 },
                 {
@@ -198,6 +198,12 @@ const project={
             skillHeading:"Skills",
             skills:["Computer Vision", "Python"],
             description:"To check if the lane is being followed and give suggestion on lane keeping."  
+         }, 
+         {
+            projectName:"Capstone Work",
+            skillHeading:"Type",
+            skills:["Intensive Writing"],
+            description:"Metaverse in Education: Comparative Study of Educational Metaverse Applications"  
          },         
     ]
 }

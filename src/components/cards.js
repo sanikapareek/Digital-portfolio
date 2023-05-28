@@ -52,8 +52,11 @@ class Cards extends Component{
                     }
                     
                 }  
-                cardPara.innerHTML=cardPara.innerHTML+`<strong>Problem Statement: </strong>${data.description}  <br><br>`;
-                
+                if(data.skillHeading==="Type"){
+                    cardPara.innerHTML=cardPara.innerHTML+`<strong>Paper Title: </strong>${data.description}  <br><br>`;
+                }else{
+                    cardPara.innerHTML=cardPara.innerHTML+`<strong>Problem Statement: </strong>${data.description}  <br><br>`;
+                }
                 cardContainer.appendChild(cardHeading)
                 cardContainer.appendChild(cardPara)      
             }
