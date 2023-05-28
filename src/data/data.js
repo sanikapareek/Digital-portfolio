@@ -208,6 +208,17 @@ const project={
     ]
 }
 
+const capstone={
+    capstoneHeading: "Capstone Work",
+    paperTitle: "Metaverse in Education: Comparative Study of Educational Metaverse Applications.",
+    contributions:[
+        "Study of the evolution of Metaverse",
+        "Compare Augmented Reality, Virtual Reality, Mixed Reality, and Extended Reality which are technologies used to create immersive experience.",
+        "Analyses the impact Metaverse has on teaching and learning experience.", 
+        "Conduct a comparative study between the educational Metaverse applications."
+    ]
+}
+
 const internship={
     internshipHeading:"Internships",
     internships:[
@@ -240,4 +251,4 @@ const footer={
     footer:"Copyright @Sanika Pareek 2023"
 }
 
-export {header,banner,profileImage,profile,education,achievements,project,internship,footer, certificates}
+export {header,banner,profileImage,profile,education,achievements,project,internship,footer, certificates,capstone}

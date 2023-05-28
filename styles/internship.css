@@ -19,6 +19,15 @@
     border: 0.1px solid rgb(187, 185, 185);
 }
 
+.card-body:hover{
+  scale:1.075;
+  border: none;
+}
+
+.card:hover{
+  border: 1px solid black;
+}
+
 /* The actual timeline (the vertical ruler) */
 .main-timeline {
     position: relative;

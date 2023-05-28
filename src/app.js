@@ -11,6 +11,7 @@ import { Achievement } from "./components/achievements.js";
 import { Internship } from "./components/internships.js";
 import { Footer } from "./components/footer.js";
 import { Certificates } from "./components/certificates.js";
+import { Capstone } from "./components/capstone.js";
 
 const headerComponent=new Header();
 headerComponent.mount(document.getElementById("root"));
@@ -41,6 +42,9 @@ achievementComponent.mount(document.getElementById("root"));
 
 const projectComponent=new Project();
 projectComponent.mount(document.getElementById("root"));
+
+const capstoneComponent=new Capstone();
+capstoneComponent.mount(document.getElementById("root"));
 
 for(let i=0;i<project.projects.length;i++){
     const projectCard=new Cards();

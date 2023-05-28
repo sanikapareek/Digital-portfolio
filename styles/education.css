@@ -10,6 +10,8 @@
     justify-content: center;
 }
 
+
+
 .educationCard{
     width: 350px;
     height: 300px;
@@ -17,6 +19,10 @@
     background-color:white;
     border: 0.8px solid black;
     border-radius: 20px;
+}
+
+.educationCard:hover{
+    scale: 1.075;
 }
 
 .educationCardHeader{
